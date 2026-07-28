@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0a1628"/>
+<stop offset="55%" stop-color="#0d2137"/>
+<stop offset="100%" stop-color="#0a1a2e"/>
+</linearGradient>
+<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#22d3ee"/>
+<stop offset="100%" stop-color="#3b82f6"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+<stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9"/>
+<stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+<g opacity="0.14" stroke="#3b82f6" stroke-width="1">
+<line x1="0" y1="30" x2="1200" y2="30"/>
+<line x1="0" y1="70" x2="1200" y2="70"/>
+<line x1="0" y1="110" x2="1200" y2="110"/>
+<line x1="0" y1="150" x2="1200" y2="150"/>
+<line x1="0" y1="190" x2="1200" y2="190"/>
+<line x1="0" y1="230" x2="1200" y2="230"/>
+<line x1="0" y1="270" x2="1200" y2="270"/>
+<line x1="0" y1="310" x2="1200" y2="310"/>
+<line x1="40" y1="0" x2="40" y2="360"/>
+<line x1="120" y1="0" x2="120" y2="360"/>
+<line x1="200" y1="0" x2="200" y2="360"/>
+<line x1="280" y1="0" x2="280" y2="360"/>
+<line x1="880" y1="0" x2="880" y2="360"/>
+<line x1="960" y1="0" x2="960" y2="360"/>
+<line x1="1040" y1="0" x2="1040" y2="360"/>
+<line x1="1120" y1="0" x2="1120" y2="360"/>
+</g>
+
+<circle cx="980" cy="120" r="220" fill="url(#glow)"/>
+
+<g opacity="0.5">
+<circle cx="990" cy="130" r="95" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+<circle cx="990" cy="130" r="65" fill="none" stroke="#38bdf8" stroke-width="1"/>
+<line x1="990" y1="35" x2="990" y2="225" stroke="#38bdf8" stroke-width="1"/>
+<line x1="895" y1="130" x2="1085" y2="130" stroke="#38bdf8" stroke-width="1"/>
+<circle cx="990" cy="130" r="4" fill="#22d3ee"/>
+</g>
+
+<g opacity="0.55" stroke="#60a5fa" stroke-width="2" fill="none">
+<polygon points="880,300 960,240 1060,255 1040,320 900,320" />
+<line x1="880" y1="300" x2="1060" y2="255"/>
+<line x1="960" y1="240" x2="1040" y2="320"/>
+</g>
+
+<g opacity="0.7" stroke="#22d3ee" stroke-width="1.2" fill="none">
+<path d="M 720 40 L 760 40 L 760 80" />
+<path d="M 1140 300 L 1100 300 L 1100 260" />
+<circle cx="760" cy="40" r="3" fill="#22d3ee"/>
+<circle cx="1100" cy="260" r="3" fill="#22d3ee"/>
+</g>
+
+<g stroke="#93c5fd" stroke-width="1" opacity="0.4">
+<line x1="60" y1="330" x2="1140" y2="330"/>
+<line x1="60" y1="325" x2="60" y2="335"/>
+<line x1="300" y1="325" x2="300" y2="335"/>
+<line x1="600" y1="325" x2="600" y2="335"/>
+<line x1="900" y1="325" x2="900" y2="335"/>
+<line x1="1140" y1="325" x2="1140" y2="335"/>
+</g>
+
+<rect x="60" y="60" width="6" height="6" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.6"/>
+<rect x="1134" y="54" width="6" height="6" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.6"/>
+
+<rect x="60" y="100" width="4" height="4" fill="#22d3ee" opacity="0.8"/>
+<line x1="62" y1="100" x2="62" y2="60" stroke="#22d3ee" stroke-width="1" opacity="0.5"/>
+
+<text x="60" y="168" font-family="'Segoe UI', Arial, sans-serif" font-size="68" font-weight="700" fill="#f0f9ff" textLength="900" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">AutoCAD Full Version</tspan>
+</text>
+<text x="60" y="234" font-family="'Segoe UI', Arial, sans-serif" font-size="68" font-weight="700" fill="url(#accent)" textLength="360" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">Download</tspan>
+</text>
+
+<text x="60" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#a8c5e0" textLength="880" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">Skip manual installs — download AutoCAD full version and run instantly</tspan>
+</text>
+
+<g opacity="0.6">
+<line x1="60" y1="298" x2="220" y2="298" stroke="#22d3ee" stroke-width="2"/>
+<circle cx="228" cy="298" r="4" fill="#22d3ee"/>
+</g>
+</svg>
